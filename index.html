@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<html>, initial-scale=1.0">
+    <title>regforn</title>
+    <style>
+        h1{
+            color: midnightblue;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            background-color:rgb(194, 232, 194);
+            margin: 35px;
+            padding: 25px;
+            border-color: black;
+            border-radius: 20px;
+        }
+        label{
+            color:black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:medium;
+            border-radius: 10px;
+            
+        }
+        .bg{
+            background-color: crimson;
+        }
+        
+        body{
+            background-image:url("./bgimg.jpg");
+            background-position: 553px,817px 4009px,2153px;
+            background-size: cover;
+        }
+        
+        button{
+            color: black;
+            background-color:lightskyblue;
+            border-color:black;
+            border-radius: 10px;
+           
+    
+        }
+    </style>
+</head>
+<body class="bg">
+    
+   
+
+            <center><h1><b> REGISTRARTION FORM </b></h1></center>
+        <form  method="POST">
+            <center>
+            <table>
+            
+            <tr><div > <b>
+                <td><label>NAME</label></td>
+               <td> <input type="text" name="name"> </td> 
+            </b></div> </br></tr> 
+          <tr> <div > <b> 
+               <td> <label> EMAIL</label></td>
+               <td> <input type="text" name="email"></td>
+            </b></div></br></br></tr>
+            <br>
+            
+            <tr><div > <b>
+                <td><label> CONTACT NUMBER </label></td>
+                <td> <input type="number" name="cno"></td>
+            </b></div></br></br></tr>
+           <tr> <div > <b>
+            <td> <label> GENDER</label></td>
+            <td> <select> name="gen"
+                    <option value="Male">male</option>
+                    <option value="Female">female</option>
+                    <option value="Others">others</option>
+            </select></td>
+            </b></div></br></br></tr>
+           <tr> <div > <b> 
+            <td><label> DOB </label></td>
+            <td> <input type="date" name="name"></td>
+        </b></div></br></br></tr>
+        
+       
+    </table></br>
+    <div> <b>
+        <button>SUBMIT</button>
+    </b></div></br></br>
+   
+</center>
+        </form>
+</body>
+</html>
